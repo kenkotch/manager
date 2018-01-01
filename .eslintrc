@@ -24,6 +24,8 @@
     "import/no-unresolved": "off",
     "skip-line": "off",
     "import/newline-after-import": "off",
+    "consistent-return": 0,
+    "object-curly-newline": 0,
 
     // Semicolon and console heaven.
     "no-console": 0,
@@ -43,9 +45,12 @@
 
     "space-in-parens": ["error", "never"],
 
-    // allow jsx
+    // jsx
     "react/jsx-filename-extension": [1, { "extensions": [".js"] }],
     "react/jsx-curly-spacing": [1, "always"],
+    "arrow-parens": 0,
+    "react/jsx-no-bind": [ , { "allowBind": true }],
+    "react/prop-types": 0,
 
     // allow define after call
     "no-use-before-define": ["error", { "functions": false, "classes": false, "variables": false }],
