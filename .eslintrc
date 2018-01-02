@@ -47,7 +47,11 @@
 
     // jsx
     "react/jsx-filename-extension": [1, { "extensions": [".js"] }],
-    "react/jsx-curly-spacing": [1, "always"],
+    "react/jsx-curly-spacing":
+      [2, "always", {
+        "allowMultiline": false,
+        "spacing": {"objectLiterals": "never"}
+      }],
     "arrow-parens": 0,
     "react/jsx-no-bind": [ , { "allowBind": true }],
     "react/prop-types": 0,
