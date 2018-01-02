@@ -6,7 +6,7 @@ import { CardSection, Input } from './common'
 
 class EmployeeForm extends Component {
   componentWillMount() {
-    console.log('employeeForm mounted')
+
   }
 
   render() {
