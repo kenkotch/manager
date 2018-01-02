@@ -42,7 +42,6 @@
     // callback return
     "callback-return": ["error", ["callback", "cb", "next"]],
 
-
     "space-in-parens": ["error", "never"],
 
     // jsx
@@ -55,6 +54,7 @@
     "arrow-parens": 0,
     "react/jsx-no-bind": [ , { "allowBind": true }],
     "react/prop-types": 0,
+    "import/prefer-default-export": 0,
 
     // allow define after call
     "no-use-before-define": ["error", { "functions": false, "classes": false, "variables": false }],
